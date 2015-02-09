@@ -5,7 +5,21 @@ h1{
 	padding: 5%;
 }
 
-text-center{
-
-
+h2{
+	font-family: 'Droid Serif', serif;
 }
+
+#tagline ul{
+	list-style: none;
+}
+
+#tagline ul li{
+	display: inline;
+}
+
+
+.box{
+	background-color: #36302B;
+	
+}
+
