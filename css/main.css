@@ -9,14 +9,19 @@ h2{
 	font-family: 'Droid Serif', serif;
 }
 
-#tagline ul{
-	list-style: none;
+ul{
+	list-style-type: none;
+	padding: 2%;
 }
 
-#tagline ul li{
+ul li{
+	padding: 2%;
 	display: inline;
 }
 
+a:hover {
+	text-decoration:none;
+}
 
 .box{
 	background-color: #36302B;
