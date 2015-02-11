@@ -28,7 +28,7 @@ h2{
 
 h3{
 	font-family: 'Droid Serif', cursive;
-	font-size: 150%;
+	font-size: 200%;
 }
 
 h4{
@@ -89,7 +89,7 @@ img{
 	
 }
 .col-sm-4{
-
+	padding: 5%;
 }
 .bird{
 	width: 100% !important;
