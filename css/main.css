@@ -1,3 +1,17 @@
+@import url('bootstrap.min.css');
+
+body{
+	background: url("images/background.png") center center;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#bg{
+    background:url('../img/con_bg4.png') no-repeat center center;
+    height: 500px;
+}
+
 h1{
 
 	font-family: 'Courgette', cursive;
@@ -6,7 +20,26 @@ h1{
 }
 
 h2{
+	font-family: 'Yeseva One', cursive;
+	font-size: 200%;
+	margin: 1%;
+	
+}
+
+h3{
 	font-family: 'Droid Serif', serif;
+	font-size: 150%;
+}
+
+h4{
+	font-family: 'Yeseva One', cursive;
+	font-size: 150%;
+	margin: 1%;
+	text-align: center;
+}
+
+p{
+	font-family: 'Slabo 27px', serif;
 }
 
 ul{
@@ -15,16 +48,61 @@ ul{
 }
 
 ul li{
-	padding: 2%;
+	padding: 1%;
+	margin: 2%;
 	display: inline;
+}
+
+a:link {
+	text-decoration:none;
+	color: #6B6A6B;
+}
+
+a:visited {
+	text-decoration:none;
+	color: #6B6A6B;
 }
 
 a:hover {
 	text-decoration:none;
+	color: #DBD7DB;
 }
 
-.box{
-	background-color: #36302B;
+a:active {
+	text-decoration:none;
+	color: #DBD7DB;
+}
+
+.container{
+	width: 80%;
+}
+
+img{
+	float:left;
+    display:inline;
+    height: 100%;
+	width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-radius: 50%;
 	
 }
+.col-sm-4{
+
+}
+.bird{
+	width: 100% !important;
+	height: 100% !important;
+}
+circular1{
+	width: 30%;
+	height: 30%;
+}
+
+circular1 img{
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+
 
